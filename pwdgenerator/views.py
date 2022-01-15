@@ -20,7 +20,7 @@ def password(request):
 		characters.extend(list('0987654321'))
 
 	if request.GET.get('SpecialChar'):
-		characters.extend(list('~`!@#$%^&*'))
+		characters.extend(list('~`!@#$%^&*',.))
 
 	thepassword = ''
 
